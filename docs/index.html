@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_48e8109c6584188faf30262629de056e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    <meta http-equiv="refresh" content="60">
+    
+            <div class="folium-map" id="map_48e8109c6584188faf30262629de056e" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_48e8109c6584188faf30262629de056e = L.map(
+                "map_48e8109c6584188faf30262629de056e",
+                {
+                    center: [50.619, 26.251],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6c6ce0b9c5e8d2a9124ac649edefb3eb = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_6c6ce0b9c5e8d2a9124ac649edefb3eb.addTo(map_48e8109c6584188faf30262629de056e);
+        
+    
+            var marker_a285eaea7706a2ab2f05802e7e2496eb = L.marker(
+                [50.619, 26.251],
+                {
+}
+            ).addTo(map_48e8109c6584188faf30262629de056e);
+        
+    
+            var icon_a4485d998a6fe186299f6a262fb2444b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_476435728e9106b9ecff2a2eedd2ad48 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f40b35305a84931b875decce40a62611 = $(`<div id="html_f40b35305a84931b875decce40a62611" style="width: 100.0%; height: 100.0%;">Точка: Собор</div>`)[0];
+                popup_476435728e9106b9ecff2a2eedd2ad48.setContent(html_f40b35305a84931b875decce40a62611);
+            
+        
+
+        marker_a285eaea7706a2ab2f05802e7e2496eb.bindPopup(popup_476435728e9106b9ecff2a2eedd2ad48)
+        ;
+
+        
+    
+    
+                marker_a285eaea7706a2ab2f05802e7e2496eb.setIcon(icon_a4485d998a6fe186299f6a262fb2444b);
+            
+    
+            var marker_690630d7c29fe821d1e2dcc15ce6523e = L.marker(
+                [50.605, 26.248],
+                {
+}
+            ).addTo(map_48e8109c6584188faf30262629de056e);
+        
+    
+            var icon_6d5e4a2dc038f19af92b41d077522657 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f5816af07181a08b83cccc05c8b18b4e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fd5ae75bb48a72f020146fa5d5453121 = $(`<div id="html_fd5ae75bb48a72f020146fa5d5453121" style="width: 100.0%; height: 100.0%;">Точка: Дубен</div>`)[0];
+                popup_f5816af07181a08b83cccc05c8b18b4e.setContent(html_fd5ae75bb48a72f020146fa5d5453121);
+            
+        
+
+        marker_690630d7c29fe821d1e2dcc15ce6523e.bindPopup(popup_f5816af07181a08b83cccc05c8b18b4e)
+        ;
+
+        
+    
+    
+                marker_690630d7c29fe821d1e2dcc15ce6523e.setIcon(icon_6d5e4a2dc038f19af92b41d077522657);
+            
+    
+            var marker_cf2711ba1d9f3b3f8e27d52cf9581348 = L.marker(
+                [50.615, 26.255],
+                {
+}
+            ).addTo(map_48e8109c6584188faf30262629de056e);
+        
+    
+            var icon_3dbe3bbab094d5a3b3a7e02b2d81d742 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c0efab4c50dcc4bf745d4a1740b4460a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_49e15462624e842f30f4033429603f02 = $(`<div id="html_49e15462624e842f30f4033429603f02" style="width: 100.0%; height: 100.0%;">Точка: Теліги</div>`)[0];
+                popup_c0efab4c50dcc4bf745d4a1740b4460a.setContent(html_49e15462624e842f30f4033429603f02);
+            
+        
+
+        marker_cf2711ba1d9f3b3f8e27d52cf9581348.bindPopup(popup_c0efab4c50dcc4bf745d4a1740b4460a)
+        ;
+
+        
+    
+    
+                marker_cf2711ba1d9f3b3f8e27d52cf9581348.setIcon(icon_3dbe3bbab094d5a3b3a7e02b2d81d742);
+            
+    
+            var marker_c93e386a2b39f58c7153e4b5d704a5e5 = L.marker(
+                [50.62, 26.26],
+                {
+}
+            ).addTo(map_48e8109c6584188faf30262629de056e);
+        
+    
+            var icon_538b24b51b6fdf0956c6ae84354fe4f6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_85ca74aabba3f51ca03c8dcf84b2cef6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4b8f63b9438093293d9459f6f62648cd = $(`<div id="html_4b8f63b9438093293d9459f6f62648cd" style="width: 100.0%; height: 100.0%;">Точка: Точка4</div>`)[0];
+                popup_85ca74aabba3f51ca03c8dcf84b2cef6.setContent(html_4b8f63b9438093293d9459f6f62648cd);
+            
+        
+
+        marker_c93e386a2b39f58c7153e4b5d704a5e5.bindPopup(popup_85ca74aabba3f51ca03c8dcf84b2cef6)
+        ;
+
+        
+    
+    
+                marker_c93e386a2b39f58c7153e4b5d704a5e5.setIcon(icon_538b24b51b6fdf0956c6ae84354fe4f6);
+            
+    
+            var marker_7bd7c21de15bbcfc8d89a4cacdd6e2fd = L.marker(
+                [50.61, 26.27],
+                {
+}
+            ).addTo(map_48e8109c6584188faf30262629de056e);
+        
+    
+            var icon_818fb4bf135348e6e5a67ef8f1c52899 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_33c0a7aac846df07b7d451c255e5696c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_89fb26b8f5da9d20569b8a918690c12d = $(`<div id="html_89fb26b8f5da9d20569b8a918690c12d" style="width: 100.0%; height: 100.0%;">Точка: Точка5</div>`)[0];
+                popup_33c0a7aac846df07b7d451c255e5696c.setContent(html_89fb26b8f5da9d20569b8a918690c12d);
+            
+        
+
+        marker_7bd7c21de15bbcfc8d89a4cacdd6e2fd.bindPopup(popup_33c0a7aac846df07b7d451c255e5696c)
+        ;
+
+        
+    
+    
+                marker_7bd7c21de15bbcfc8d89a4cacdd6e2fd.setIcon(icon_818fb4bf135348e6e5a67ef8f1c52899);
+            
+    
+            var marker_1d1df990a2c85d2dcbf431c69325153f = L.marker(
+                [50.6, 26.25],
+                {
+}
+            ).addTo(map_48e8109c6584188faf30262629de056e);
+        
+    
+            var icon_deb1dfac681fc438711f0ae02cd9617d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_af794c4afdc8fc63fd7ee7c919b2d79c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_25f4ea0e2dac03fbb353cae5959358f0 = $(`<div id="html_25f4ea0e2dac03fbb353cae5959358f0" style="width: 100.0%; height: 100.0%;">Точка: Точка6</div>`)[0];
+                popup_af794c4afdc8fc63fd7ee7c919b2d79c.setContent(html_25f4ea0e2dac03fbb353cae5959358f0);
+            
+        
+
+        marker_1d1df990a2c85d2dcbf431c69325153f.bindPopup(popup_af794c4afdc8fc63fd7ee7c919b2d79c)
+        ;
+
+        
+    
+    
+                marker_1d1df990a2c85d2dcbf431c69325153f.setIcon(icon_deb1dfac681fc438711f0ae02cd9617d);
+            
+    
+            var marker_a7444866a74cd287412ba740e9ed51bf = L.marker(
+                [50.63, 26.28],
+                {
+}
+            ).addTo(map_48e8109c6584188faf30262629de056e);
+        
+    
+            var icon_34345ea1ff12368d0ae9048d6df6b7d1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_39cc5a02717b3f72923fb27916f25094 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_02a9678096426b060b31b7e27336ca7d = $(`<div id="html_02a9678096426b060b31b7e27336ca7d" style="width: 100.0%; height: 100.0%;">Точка: Точка7</div>`)[0];
+                popup_39cc5a02717b3f72923fb27916f25094.setContent(html_02a9678096426b060b31b7e27336ca7d);
+            
+        
+
+        marker_a7444866a74cd287412ba740e9ed51bf.bindPopup(popup_39cc5a02717b3f72923fb27916f25094)
+        ;
+
+        
+    
+    
+                marker_a7444866a74cd287412ba740e9ed51bf.setIcon(icon_34345ea1ff12368d0ae9048d6df6b7d1);
+            
+    
+            var marker_ec4fef3a2b237f8f7ee2ccd23623b80b = L.marker(
+                [50.615, 26.24],
+                {
+}
+            ).addTo(map_48e8109c6584188faf30262629de056e);
+        
+    
+            var icon_d9447a6a5e407c2d237895c06bf64ab7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_935aca01d6f3d6181a4319039fc9b576 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ef3b7da4ca9a67300dbf0f9a006bb866 = $(`<div id="html_ef3b7da4ca9a67300dbf0f9a006bb866" style="width: 100.0%; height: 100.0%;">Точка: Точка8</div>`)[0];
+                popup_935aca01d6f3d6181a4319039fc9b576.setContent(html_ef3b7da4ca9a67300dbf0f9a006bb866);
+            
+        
+
+        marker_ec4fef3a2b237f8f7ee2ccd23623b80b.bindPopup(popup_935aca01d6f3d6181a4319039fc9b576)
+        ;
+
+        
+    
+    
+                marker_ec4fef3a2b237f8f7ee2ccd23623b80b.setIcon(icon_d9447a6a5e407c2d237895c06bf64ab7);
+            
+    
+            var marker_dc5de480ca7801eb07bc1b550cb4e240 = L.marker(
+                [50.605, 26.265],
+                {
+}
+            ).addTo(map_48e8109c6584188faf30262629de056e);
+        
+    
+            var icon_a39ea874d6ebc5212288313d2cd7e86d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d761b9a96b87cbaf8368ceb800cfdd41 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1943c2cf184cec0ea2998e391c4aeabc = $(`<div id="html_1943c2cf184cec0ea2998e391c4aeabc" style="width: 100.0%; height: 100.0%;">Точка: Точка9</div>`)[0];
+                popup_d761b9a96b87cbaf8368ceb800cfdd41.setContent(html_1943c2cf184cec0ea2998e391c4aeabc);
+            
+        
+
+        marker_dc5de480ca7801eb07bc1b550cb4e240.bindPopup(popup_d761b9a96b87cbaf8368ceb800cfdd41)
+        ;
+
+        
+    
+    
+                marker_dc5de480ca7801eb07bc1b550cb4e240.setIcon(icon_a39ea874d6ebc5212288313d2cd7e86d);
+            
+    
+            var marker_6445a0a974a6611eb1cb4a82765970e0 = L.marker(
+                [50.625, 26.235],
+                {
+}
+            ).addTo(map_48e8109c6584188faf30262629de056e);
+        
+    
+            var icon_b2ea7505c220f62e0cd500510cb832c6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_91b5ccb8d89d8815152741eafd893aad = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9929057eb328e1041aefbc8c0ce25f2b = $(`<div id="html_9929057eb328e1041aefbc8c0ce25f2b" style="width: 100.0%; height: 100.0%;">Точка: Точка10</div>`)[0];
+                popup_91b5ccb8d89d8815152741eafd893aad.setContent(html_9929057eb328e1041aefbc8c0ce25f2b);
+            
+        
+
+        marker_6445a0a974a6611eb1cb4a82765970e0.bindPopup(popup_91b5ccb8d89d8815152741eafd893aad)
+        ;
+
+        
+    
+    
+                marker_6445a0a974a6611eb1cb4a82765970e0.setIcon(icon_b2ea7505c220f62e0cd500510cb832c6);
+            
+</script>
+</html>
