@@ -17,7 +17,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_3a9e6ae2d06de193663f53d3cdfbd147 {
+                #map_133582f0f3ef66b755ae1180610fef73 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -54,18 +54,18 @@
 <body>
     
     <meta http-equiv="refresh" content="60"><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-    <div style="position: fixed; top: 10px; left: 50px; z-index:9999; font-size:20px; background:white; padding:5px; border:2px solid red; font-weight:bold;">Время обновления: 12:19:09</div>
+    <div style="position: fixed; top: 10px; left: 50px; z-index:9999; font-size:20px; background:white; padding:5px; border:2px solid red; font-weight:bold;">Время обновления: 12:37:39</div>
     
-            <div class="folium-map" id="map_3a9e6ae2d06de193663f53d3cdfbd147" ></div>
+            <div class="folium-map" id="map_133582f0f3ef66b755ae1180610fef73" ></div>
         
 </body>
 <script>
     
     
-            var map_3a9e6ae2d06de193663f53d3cdfbd147 = L.map(
-                "map_3a9e6ae2d06de193663f53d3cdfbd147",
+            var map_133582f0f3ef66b755ae1180610fef73 = L.map(
+                "map_133582f0f3ef66b755ae1180610fef73",
                 {
-                    center: [50.605, 26.29],
+                    center: [50.596, 26.294],
                     crs: L.CRS.EPSG3857,
                     ...{
   "zoom": 12,
@@ -80,7 +80,7 @@
 
         
     
-            var tile_layer_63ac6741d36ba96d3dde7ce4d2ce3070 = L.tileLayer(
+            var tile_layer_63ff5bd5b013fb1183e678b9595579e8 = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {
   "minZoom": 0,
@@ -97,7 +97,83 @@
             );
         
     
-            tile_layer_63ac6741d36ba96d3dde7ce4d2ce3070.addTo(map_3a9e6ae2d06de193663f53d3cdfbd147);
+            tile_layer_63ff5bd5b013fb1183e678b9595579e8.addTo(map_133582f0f3ef66b755ae1180610fef73);
         
+    
+            var marker_b42be2e3b25d36bb92075cd83399b3ca = L.marker(
+                [50.596, 26.294],
+                {
+}
+            ).addTo(map_133582f0f3ef66b755ae1180610fef73);
+        
+    
+            var icon_5ff00f2175c6133cb68833ca3ddfef63 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cca4ef54fd2f09448d7761fb12afa4bf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_513793b5690062aed2fc6357fd16dc81 = $(`<div id="html_513793b5690062aed2fc6357fd16dc81" style="width: 100.0%; height: 100.0%;">Внимание на Пмк100: ПМК 100 Дорога з карманами Так на бучі чоловіка кошмарять</div>`)[0];
+                popup_cca4ef54fd2f09448d7761fb12afa4bf.setContent(html_513793b5690062aed2fc6357fd16dc81);
+            
+        
+
+        marker_b42be2e3b25d36bb92075cd83399b3ca.bindPopup(popup_cca4ef54fd2f09448d7761fb12afa4bf)
+        ;
+
+        
+    
+    
+                marker_b42be2e3b25d36bb92075cd83399b3ca.setIcon(icon_5ff00f2175c6133cb68833ca3ddfef63);
+            
+    
+            var marker_b60e0ee88cd383aa4cd162feffa4d34b = L.marker(
+                [50.60246, 26.28488],
+                {
+}
+            ).addTo(map_133582f0f3ef66b755ae1180610fef73);
+        
+    
+            var icon_8af051b4c22da9e56c6288863ed2886e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "ok-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6ec06727fa6a6885605128c2b5f30462 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_72f35ad3178809b6d637fc90a49aa4c1 = $(`<div id="html_72f35ad3178809b6d637fc90a49aa4c1" style="width: 100.0%; height: 100.0%;">Чисто на Фоззі: Фоззі теплиці🌞</div>`)[0];
+                popup_6ec06727fa6a6885605128c2b5f30462.setContent(html_72f35ad3178809b6d637fc90a49aa4c1);
+            
+        
+
+        marker_b60e0ee88cd383aa4cd162feffa4d34b.bindPopup(popup_6ec06727fa6a6885605128c2b5f30462)
+        ;
+
+        
+    
+    
+                marker_b60e0ee88cd383aa4cd162feffa4d34b.setIcon(icon_8af051b4c22da9e56c6288863ed2886e);
+            
 </script>
 </html>
